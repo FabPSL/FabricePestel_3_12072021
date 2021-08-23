@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="./scss/styles.css">
     <link rel="icon" type="image/png" href="../img/logo/ohmyfood@2x.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d63c450565.js" crossorigin="anonymous"></script>
     <title>Ohmyfood! Accueil</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="heading__logo">
+            <div class="header__logo">
                 <img src="../img/logo/ohmyfood@2x.svg" alt="Logo Ohmyfood!">
             </div>
-            <form class="heading__pos" action="traitement.php">
+            <form class="header__pos" action="traitement.php">
 
                 <label for="">
                     <i class="fas fa-map-marker-alt"></i>
                 </label>
                 <input type="search" placeholder="Paris, Belleville">
             </div>
-            <div class="heading__intro">
+            <div class="header__intro">
                 <h1>Réserver le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exeption, sélectionnés par nos soins</p>
-            </div>
-            <div class="heading__search">
-                <button class="button">Explorer nos restaurants</button>
+                <div class="header__search">
+                    <button class="button">Explorer nos restaurants</button>
+                </div>
             </div>
         </div>
     </header>
