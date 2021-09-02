@@ -1,4 +1,7 @@
-@import "layouts/header";
+@import "base/fonts";
 @import "utils/variables";
+@import "base/base";
+@import "layouts/header";
 @import "utils/reset";
 @import "components/cards";
+@import "components/buttons";
