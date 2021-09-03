@@ -1,6 +1,20 @@
 body {
   font-family: $font-text;
 }
+a {
+  text-decoration: none;
+}
 .container {
   margin: 0 auto;
+}
+.instructions {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px;
+  &__btns {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+  }
 }

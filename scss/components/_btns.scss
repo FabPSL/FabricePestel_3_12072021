@@ -1,0 +1,36 @@
+.btn {
+  height: 50px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  background: #f0f0f0;
+  padding: 5px;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+  &__number {
+    background: #9356dc;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 70%;
+    position: absolute;
+    left: -5px;
+  }
+  &__icone {
+    padding: 0 20px 0 25px;
+    color: #7e7e7e;
+    width: 50px;
+    i {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__ttl {
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+  }
+}
