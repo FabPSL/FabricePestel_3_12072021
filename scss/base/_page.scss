@@ -18,3 +18,10 @@ a {
     gap: 20px;
   }
 }
+
+.results {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 35px;
+  background: #f6f6f6;
+}
