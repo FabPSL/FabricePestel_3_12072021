@@ -1,16 +1,16 @@
 .result {
-    width: 240px;
-    background-color: #FFF;
-    padding: 5px;
-    border-radius: 10px;
-    &__img {
-        width: 230px;
-        height: auto;
-        object-fit: cover;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    &__txt {
-        font-family: $font-text;
-    }
+  width: 240px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  &__img {
+    width: 230px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  &__txt {
+    font-family: $font-text;
+  }
 }
