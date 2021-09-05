@@ -5,13 +5,13 @@
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  background: #f0f0f0;
+  background: $lightgrey;
   padding: 5px;
   border-radius: 50px;
   position: relative;
   box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
   &__number {
-    background: #9356dc;
+    background: $color-primary;
     padding: 2px 5px;
     border-radius: 10px;
     color: white;

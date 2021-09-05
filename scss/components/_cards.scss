@@ -1,16 +1,45 @@
 .result {
-  width: 240px;
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  min-width: 305px;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 10px;
   &__img {
-    width: 230px;
-    height: auto;
+    width: -webkit-fill-available;
+    height: 180px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  .new {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: $color-tertiary;
+    padding: 5px;
+    font-size: smaller;
+  }
   &__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-family: $font-text;
+    padding: 0 10px;
+    h3 {
+      margin: 0;
+      padding: 5px 0;
+    }
+    p {
+      margin: 0;
+      padding: 5px 0 10px;
+    }
+  }
+  &__like {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
   }
 }
