@@ -7,6 +7,7 @@
     background-color: #fff;
     padding: 0;
     border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   &__img {
     width: -webkit-fill-available;
     height: 180px;
@@ -28,6 +29,8 @@
     align-items: flex-start;
     font-family: $font-text;
     padding: 0 10px;
+    color: black;
+    font-size: smaller;
     h3 {
       margin: 0;
       padding: 5px 0;

@@ -1,0 +1,22 @@
+.foot {
+    background: $lightblack;
+    color: white;
+    padding: 10px 35px;
+    &__logo h1 {
+        font-family: $font-ttl;
+        font-size: 1.2em;
+    }
+    &__list ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        list-style: none;
+        padding: 0;
+        li {
+        font-size: 0.8em;
+        i {
+            padding-right: 20px;
+        }
+        }
+    }
+}
