@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: -40px 0 0 0;
+    padding: 10px 35px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background: $lightgrey;
+}
