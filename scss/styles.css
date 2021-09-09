@@ -630,8 +630,11 @@ template {
 .item__name p {
   margin: 0;
   padding: 0 0 10px;
+  font-size: 0.9em;
 }
 .item__price p {
+  margin: 0;
+  padding: 0 0 10px;
   font-weight: bold;
 }
 

@@ -20,9 +20,14 @@
 p{
     margin: 0;
     padding: 0 0 10px;
+    font-size: 0.9em;
 }
         }
         &__price {
-            p {font-weight: bold;}
+            p {
+                margin: 0;
+                padding: 0 0 10px;
+                font-weight: bold;
+            }
         }
     }
