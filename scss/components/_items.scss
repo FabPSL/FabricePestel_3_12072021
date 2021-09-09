@@ -1,0 +1,28 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: white;
+    padding: 0 10px;
+    margin: 0 -5px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+    &__name {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+        h3 {
+            margin: 0;
+    padding: 10px 0;
+}
+p{
+    margin: 0;
+    padding: 0 0 10px;
+}
+        }
+        &__price {
+            p {font-weight: bold;}
+        }
+    }
