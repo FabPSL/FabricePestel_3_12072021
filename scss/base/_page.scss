@@ -12,11 +12,19 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0 20px 50px;
+  @media only screen and (min-width: 768px) {
+    align-items: center;
+  }
   &__btns {
     flex-direction: column;
     align-items: center;
     display: flex;
     gap: 20px;
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      }
   }
 }
 
@@ -25,10 +33,18 @@ a {
   flex-direction: column;
   padding: 20px;
   background: $lightgrey;
+  @media only screen and (min-width: 768px) {
+    align-items: center;
+  }
   &__btns {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
   }
 }
 
@@ -40,3 +56,5 @@ a {
     padding-bottom: 20px;
     background: $lightgrey;
 }
+
+

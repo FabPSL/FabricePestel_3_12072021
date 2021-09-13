@@ -8,6 +8,9 @@
     padding: 0;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    @media only screen and (min-width: 768px) {
+      min-width: 350px;
+    }
   &__img {
     width: -webkit-fill-available;
     height: 180px;

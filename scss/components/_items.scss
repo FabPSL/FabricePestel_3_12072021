@@ -3,17 +3,25 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    min-width: 260px;
     background: white;
     padding: 0 10px;
     margin: 0 -5px;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+    animation-name: animate;
+
+    @for $i from 1 through 100 {
+      &:nth-child(#{$i}) {
+        animation-duration: calc(1s * #{$i});
+      }
+    }
     &__name {
         display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 70%;
-        h3 {
+    width: 75%;
+        h3 {font-size: 1em;
             margin: 0;
     padding: 10px 0;
 }
@@ -27,6 +35,7 @@ p{
             p {
                 margin: 0;
                 padding: 0 0 10px;
+                font-size: 0.9em;
                 font-weight: bold;
             }
         }
