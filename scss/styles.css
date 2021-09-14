@@ -55,12 +55,18 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 1000px;
 }
 @media only screen and (min-width: 768px) {
   .results__btns {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .results__btns {
+    max-width: none;
   }
 }
 
@@ -585,6 +591,11 @@ template {
   }
 }
 
+.dish {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 .dish__ttl {
   text-transform: uppercase;
   font-size: 1.2em;
@@ -650,7 +661,7 @@ template {
   color: white;
   font-size: 70%;
   position: absolute;
-  left: -5px;
+  left: -8px;
 }
 .btn__icone {
   padding: 0 20px 0 25px;
