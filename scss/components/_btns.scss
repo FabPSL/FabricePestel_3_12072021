@@ -10,6 +10,9 @@
     border-radius: 25px;
     position: relative;
     box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+    &:hover{
+      background: $lightpink;
+    }
   &__number {
     background: $color-primary;
     padding: 2px 5px;

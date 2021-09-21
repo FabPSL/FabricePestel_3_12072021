@@ -12,12 +12,10 @@
         align-items: flex-start;
         gap: 30px;
         padding: 20px 0;
+        position: relative;
         h1 {
             font-size: 1.8em;
         margin: 0;
-        }
-        i {
-            font-size: 1.8em;
         }
     }
     &__dishes {

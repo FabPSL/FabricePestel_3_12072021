@@ -13,7 +13,7 @@
 
     @for $i from 1 through 100 {
       &:nth-child(#{$i}) {
-        animation-duration: calc(1s * #{$i});
+        animation-duration: calc(0.5s * #{$i});
       }
     }
     &__name {
@@ -32,11 +32,50 @@ p{
 }
         }
         &__price {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 25%;
+            height: 100%;
+            margin-right: -5px;
             p {
                 margin: 0;
-                padding: 0 0 10px;
+                padding: 0 10px 10px;
                 font-size: 0.9em;
                 font-weight: bold;
             }
+            &:hover {
+                .checked {
+                    width: 50%;
+                    > i {
+                        opacity: 1;
+                        transform: rotate(0deg);
+                        }
+                    }
+                }
+            > .checked {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 0%;
+                height: 100%;
+                background: $color-tertiary;
+                color: white;
+                margin-right: -5px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                transition: width 0.1s ease-in-out;
+                > i {
+                    opacity: 0;
+                    transform: rotate(90deg);
+                    transition: all 0.3s ease-in-out;
+                    font-size: 1.5em;
+                }
+            }
         }
     }
+
+
+
