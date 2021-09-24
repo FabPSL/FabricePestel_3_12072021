@@ -79,14 +79,6 @@ a {
   background: #f6f6f6;
 }
 
-/*@keyframes fadeInAnimation {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}*/
 .loadcontent {
   position: fixed;
   width: 100%;
