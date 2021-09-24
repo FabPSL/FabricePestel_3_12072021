@@ -79,20 +79,14 @@ a {
   background: #f6f6f6;
 }
 
-body {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+/*@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}*/
 .loadcontent {
   position: fixed;
   width: 100%;
@@ -605,57 +599,6 @@ template {
   margin: 0;
   padding: 5px 0 10px;
 }
-.result__like {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-
-.fa-heart {
-  cursor: pointer;
-}
-
-.fa-heart__content {
-  /* coeur de la page principale */
-  font-size: 1.5em;
-}
-
-.fa-heart-restaurant__content {
-  /* coeur de la page restaurant (ajustement superposition) */
-  font-size: 2.1em;
-}
-
-.fa-heart__content-empty {
-  color: black;
-  position: relative;
-  right: 28px;
-}
-
-.fa-heart__box {
-  position: relative;
-  left: 20px;
-}
-
-.fa-heart__box:hover > .fa-heart__full {
-  opacity: 1;
-  transform: scale(1);
-  z-index: 2;
-}
-
-.fa-heart__full {
-  color: #9356dc;
-  background: #9356dc;
-  background: linear-gradient(63deg, #9356dc 0%, #ff79da 100%);
-  background-clip: border-box;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  opacity: 0;
-  transition: all 1000ms;
-  transform: scale(0);
-  transform-origin: bottom;
-  position: relative;
-  left: 2px;
-}
 
 .menu {
   display: flex;
@@ -1147,6 +1090,51 @@ template {
   transform: rotate(90deg);
   transition: all 0.3s ease-in-out;
   font-size: 1.5em;
+}
+
+.result__like {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.result__like .fa-heart {
+  cursor: pointer;
+}
+.result__like .fa-heart__content {
+  /* coeur de la page principale */
+  font-size: 1.5em;
+}
+.result__like .fa-heart-restaurant__content {
+  /* coeur de la page restaurant (ajustement superposition) */
+  font-size: 2.1em;
+}
+.result__like .fa-heart__content-empty {
+  color: black;
+  position: relative;
+  right: 28px;
+}
+.result__like .fa-heart__box {
+  position: relative;
+  left: 20px;
+}
+.result__like .fa-heart__box:hover > .fa-heart__full {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+.result__like .fa-heart__full {
+  color: #9356dc;
+  background: #9356dc;
+  background: linear-gradient(63deg, #9356dc 0%, #ff79da 100%);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 1000ms;
+  transform: scale(0);
+  transform-origin: bottom;
+  position: relative;
+  left: 2px;
 }
 
 .foot {

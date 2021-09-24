@@ -1,6 +1,7 @@
 @import "utils/variables";
 @import "base/fonts";
 @import "base/page";
+@import "layouts/animations";
 @import "layouts/header";
 @import "utils/reset";
 @import "components/cards";
@@ -8,4 +9,5 @@
 @import "components/buttons";
 @import "components/btns";
 @import "components/items";
+@import "components/like";
 @import "layouts/footer";
