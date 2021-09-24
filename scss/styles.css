@@ -625,7 +625,7 @@ template {
   font-size: 2.1em;
 }
 
-.fa-heart__content_empty {
+.fa-heart__content-empty {
   color: black;
   position: relative;
   right: 28px;
@@ -633,16 +633,16 @@ template {
 
 .fa-heart__box {
   position: relative;
-  left: 10px;
+  left: 20px;
 }
 
-.fa-heart__box:hover > .fa-heart_full {
+.fa-heart__box:hover > .fa-heart__full {
   opacity: 1;
   transform: scale(1);
   z-index: 2;
 }
 
-.fa-heart_full {
+.fa-heart__full {
   color: #9356dc;
   background: #9356dc;
   background: linear-gradient(63deg, #9356dc 0%, #ff79da 100%);
@@ -781,7 +781,7 @@ template {
 .item {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: space-between;
   min-width: 260px;
   background: white;
@@ -1111,12 +1111,12 @@ template {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: stretch;
   width: 25%;
-  height: 100%;
   margin-right: -5px;
 }
 .item__price p {
+  align-self: flex-end;
   margin: 0;
   padding: 0 10px 10px;
   font-size: 0.9em;
@@ -1135,7 +1135,6 @@ template {
   justify-content: center;
   align-items: center;
   width: 0%;
-  height: 100%;
   background: #99e2d0;
   color: white;
   margin-right: -5px;
@@ -1171,6 +1170,9 @@ template {
 }
 .foot__list ul li i {
   padding-right: 20px;
+}
+.foot__list ul li a {
+  color: inherit;
 }
 
 @media only screen and (min-width: 768px) {
