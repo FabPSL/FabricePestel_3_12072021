@@ -139,7 +139,7 @@ a {
   width: 100%;
 }
 .header__img img {
-  width: -webkit-fill-available;
+  width: 100%;
   height: 180px;
   object-fit: cover;
 }
@@ -559,7 +559,7 @@ template {
   }
 }
 .result__img {
-  width: -webkit-fill-available;
+  width: 100%;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 10px;
