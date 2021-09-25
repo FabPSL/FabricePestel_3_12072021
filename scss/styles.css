@@ -1093,11 +1093,9 @@ template {
   cursor: pointer;
 }
 .result__like .fa-heart__content {
-  /* coeur de la page principale */
   font-size: 1.5em;
 }
 .result__like .fa-heart-restaurant__content {
-  /* coeur de la page restaurant (ajustement superposition) */
   font-size: 2.1em;
 }
 .result__like .fa-heart__content-empty {
