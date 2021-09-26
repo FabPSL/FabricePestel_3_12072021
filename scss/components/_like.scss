@@ -1,48 +1,39 @@
 .result__like {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    .fa-heart {
-        cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  .fa-heart {
+      cursor: pointer;
+      &__content {
+          font-size: 1.5em;
       }
-      
-      .fa-heart__content {
-        font-size: 1.5em;
-      }
-      
-      .fa-heart-restaurant__content {
-        font-size: 2.1em;
-      }
-      
-      .fa-heart__content-empty {
-        color: black;
-        position: relative;
-        right: 28px;
-      }
-      
-      .fa-heart__box {
-        position: relative;
-        left: 30px;
-      }
-      
-      .fa-heart__box:hover>.fa-heart__full {
-        opacity: 1;
-        transform: scale(1);
-        z-index: 2;
-      }
-      
-      .fa-heart__full {
-        color: $color-primary;
-        background: $color-primary;
-        background: linear-gradient(63deg, $color-primary 0%, $color-secondary 100%);
-        background-clip: border-box;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        opacity: 0;
-        transition: all 1000ms;
-        transform: scale(0);
-        transform-origin: bottom;
-        position: relative;
-        left: 2px;
-      }
+      &__content-empty {
+          color: black;
+          position: relative;
+          right: 28px;
+        }
+      &__box {
+          position: relative;
+          left: 30px;
+          &:hover>.fa-heart__full {
+              opacity: 1;
+              transform: scale(1);
+              z-index: 2;
+            }
+        }
+      &__full {
+          color: $color-primary;
+          background: $color-primary;
+          background: linear-gradient(63deg, $color-primary 0%, $color-secondary 100%);
+          background-clip: border-box;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          opacity: 0;
+          transition: all 1000ms;
+          transform: scale(0);
+          transform-origin: bottom;
+          position: relative;
+          left: 2px;
+        }
+    }   
 }

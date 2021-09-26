@@ -128,8 +128,6 @@ a {
   background: #fff;
   width: 50%;
   max-width: 350px;
-  /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  border-bottom: 2px solid #f4f4f4;*/
   margin: 0 auto;
   padding: 10px;
   position: relative;
@@ -1094,9 +1092,6 @@ template {
 }
 .result__like .fa-heart__content {
   font-size: 1.5em;
-}
-.result__like .fa-heart-restaurant__content {
-  font-size: 2.1em;
 }
 .result__like .fa-heart__content-empty {
   color: black;
