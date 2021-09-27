@@ -6,7 +6,7 @@
     display:  flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF80;
+    background-color: #F5EDFF80;
     animation: loadinger 0.1s;
     animation-delay: 3s;
     animation-fill-mode: both;
@@ -22,23 +22,4 @@
     height: 200px;
     animation: loading 1s ease-in-out;
     animation-iteration-count: 3;
-}
-@keyframes loading
-{
-    0%
-    { 
-        transform: rotate(0deg); 
-    }
-    100%
-    { 
-        transform: rotate(360deg);
-    }
-}
-@keyframes loadinger
-{
-    100%
-    {
-       opacity: 0;
-       z-index: -1;
-    }
 }
