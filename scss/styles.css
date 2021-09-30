@@ -1039,6 +1039,7 @@ template {
   font-size: 1em;
   margin: 0;
   padding: 10px 0;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -1046,6 +1047,7 @@ template {
   margin: 0;
   padding: 0 0 10px;
   font-size: 0.9em;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
