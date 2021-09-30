@@ -1030,18 +1030,21 @@ template {
 .item__name {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 75%;
+  overflow: hidden;
 }
 .item__name h3 {
   font-size: 1em;
   margin: 0;
   padding: 10px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .item__name p {
   margin: 0;
   padding: 0 0 10px;
   font-size: 0.9em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .item__price {
   display: flex;
