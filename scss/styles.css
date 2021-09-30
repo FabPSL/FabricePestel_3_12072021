@@ -690,6 +690,9 @@ template {
 .btn:hover {
   background: #F5EDFF;
 }
+.btn:hover .btn__icone i {
+  color: #9356dc;
+}
 .btn__number {
   background: #9356dc;
   padding: 2px 5px;

@@ -12,6 +12,9 @@
     box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
     &:hover{
       background: $lightpink;
+      .btn__icone i {
+        color: $color-primary;
+      }
     }
   &__number {
     background: $color-primary;
